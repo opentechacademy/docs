@@ -9,7 +9,7 @@
   },
   "favicon": {
     "light": "https://opentechacademy.org/favicon.ico",
-    "dark": "/favicon.svg"
+    "dark": "https://opentechacademy.org/favicon.ico"
   },
   "navigation": {
     "pages": [
