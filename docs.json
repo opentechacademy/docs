@@ -7,7 +7,10 @@
     "light": "#f5c453",
     "dark": "#f5c453"
   },
-  "favicon": "/favicon.svg",
+  "favicon": {
+    "light": "https://opentechacademy.org/favicon.ico",
+    "dark": "/favicon.svg"
+  },
   "navigation": {
     "pages": [
       {
@@ -42,7 +45,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@opentechacademy.org"
       }
     ],
     "primary": {
