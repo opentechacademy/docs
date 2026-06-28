@@ -65,9 +65,9 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "github": "https://github.com/opentechacademy",
+      "website": "https://opentechacademy.org",
+      "youtube": "https://youtube.com/theopentechacademy"
     }
   },
   "errors": {
@@ -82,6 +82,10 @@
     "color": {
       "light": "#02060d",
       "dark": "#02060d"
+    },
+    "image": {
+      "light": "/images/opentechacademybackground.png",
+      "dark": "/images/opentechacademybackground.png"
     }
   },
   "icons": {
