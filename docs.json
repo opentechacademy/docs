@@ -90,5 +90,11 @@
   },
   "icons": {
     "library": "fontawesome"
+  },
+  "thumbnails": {
+    "background": "/images/opentechacademybackground.png"
+  },
+  "metadata": {
+    "timestamp": true
   }
 }
