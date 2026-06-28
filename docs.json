@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "willow",
   "name": "Mintlify Starter Kit",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#f5c453",
+    "light": "#f5c453",
+    "dark": "#f5c453"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -35,7 +35,8 @@
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/dark.svg",
+    "href": "https://opentechacademy.org"
   },
   "navbar": {
     "links": [
@@ -68,5 +69,22 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
+  },
+  "errors": {
+    "404": {
+      "redirect": false
+    }
+  },
+  "seo": {
+    "indexing": "all"
+  },
+  "background": {
+    "color": {
+      "light": "#02060d",
+      "dark": "#02060d"
+    }
+  },
+  "icons": {
+    "library": "fontawesome"
   }
 }
