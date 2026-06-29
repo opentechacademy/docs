@@ -1,45 +1,118 @@
 ---
-title: "Learning Center LMS"
+title: "Learning Center"
 description: "Free online courses, certifications, and verification services."
 ---
 
-The **Open Tech Academy Learning Center** (available at [learn.opentechacademy.org](https://learn.opentechacademy.org)) is our central educational platform. It hosts interactive, self-paced courses designed to take learners from absolute zero to technical competency.
+The **Open Tech Academy Learning Center** (available at [learn.opentechacademy.org](https://learn.opentechacademy.org)) is our central online learning portal. It hosts interactive, self-paced courses designed to take learners from absolute zero to technical competency.
 
 ---
 
-## Key Features
+## Navigating the Learning Center
 
-- **Free Enrollment**: Anyone can browse lessons and courses immediately without paywalls.
-- **Account Progress**: Learners can create a free account to track their module progress, save quiz scores, and submit practical assignments.
-- **Public Certificates**: Upon completing all course requirements, learners earn a downloadable certificate containing a unique verification code.
+We have structured the portal to be simple, interactive, and completely free. Here is how to accomplish your goals on the platform:
+
+### 1. Enrolling and Browsing
+- **Guest Browsing**: You do not need to sign up to browse lessons and read guides.
+- **Account Enrollment**: Create a free student account using your email to save your progress, take module quizzes, submit assignments, and track certificate achievements.
+
+### 2. Learning Modules
+Courses are organized into sequential modules containing:
+- **Lessons**: Guided readings explaining core concepts in plain English.
+- **Video Walkthroughs**: Real hardware and setup recordings to see parts in action.
+- **Interactive Checklists**: Field-ready checklists to confirm physical and diagnostic steps.
+
+### 3. Assessments & Grading
+- **Module Quizzes**: Brief interactive checks at the end of lessons to review terms.
+- **Autograded Assignments**: Projects like workstation planning or system configuration verified programmatically in the background for instant feedback.
+- **Final Exams**: Comprehension tests covering the entire course curriculum.
+
+### 4. Earning Certificates
+- Once you complete all module quizzes, assignments, and exams for a course, you earn a shareable certificate.
+- Complete courses along the **Computer Hardware path** to earn tiered organization certificates.
 
 ---
 
 ## Course Catalog
 
-### Computer Hardware Fundamentals (Beta)
-Our flagship course is currently in public beta. It covers the essential hardware components that power modern computers.
+Our Computer Hardware curriculum is fully published and available:
 
-**Modules Include:**
-- **Cables and Ports**: Understanding USB, HDMI, DisplayPort, Ethernet, and power cables.
-- **Motherboards**: Identifying layout, PCIe expansion slots, power connectors, and BIOS/UEFI.
-- **CPUs & Cooling**: Processor architecture, sockets, thermal paste, and heat sinks.
-- **RAM & Storage**: Differences between DDR memory, SSDs (SATA and NVMe), and HDDs.
-- **System Building Assembly**: Step-by-step checklist for building a functional desktop PC.
-- **Troubleshooting Basics**: Diagnostic procedures for common POST errors and boot failures.
+<CardGroup cols={2}>
+  <Card title="HW101: Hardware Fundamentals" icon="gauge">
+    *Beginner · 22 Hours*
+    
+    Learn what the main parts inside a computer do, how they connect, and how to recognize them. Topics include CPU, motherboard, RAM, storage, power, cooling, and basic troubleshooting.
+  </Card>
+  <Card title="HW201: CPU Deep Dive" icon="microchip">
+    *Intermediate · 12 Hours*
+    
+    Learn CPU ideas in plain English: core and thread resource scheduling, clock speed vs. IPC architecture efficiency, thermal throttling, and CPU troubleshooting.
+  </Card>
+  <Card title="HW202: Motherboard Deep Dive" icon="circuit-board">
+    *Intermediate · 12 Hours*
+    
+    Explore how the board connects parts, chipset lane allocations, firmware configurations (BIOS/UEFI revisions), and diagnostic steps for no-POST events.
+  </Card>
+  <Card title="HW203: RAM Deep Dive" icon="memory">
+    *Intermediate · 11 Hours*
+    
+    Understand temporary workspaces, memory channel routing, timings, voltage, mixed kit compatibility issues, and hardware stability testing.
+  </Card>
+  <Card title="HW204: Storage Deep Dive" icon="database">
+    *Intermediate · 11 Hours*
+    
+    Detail SATA and NVMe SSD interfaces, mechanical hard drives, lane-sharing limits, data backups, and cloning setups.
+  </Card>
+  <Card title="HW205: Expansion, Power & Cooling" icon="fan">
+    *Intermediate · 11 Hours*
+    
+    Covers expansion cards, power supply rails and connectors (24-pin, CPU EPS, dedicated PCIe), case airflow design (intake/exhaust), and upgrade validation.
+  </Card>
+  <Card title="HW206: Graphics Deep Dive" icon="gamepad">
+    *Intermediate · 13 Hours*
+    
+    Understand GPU pipelines, VRAM bandwidth, display connector standards, graphics driver updates, and display output troubleshooting.
+  </Card>
+  <Card title="HW301: Protocols & Connectors" icon="cable">
+    *Advanced · 15 Hours*
+    
+    Learn internal buses, external interfaces, network protocols, cable lengths, and connector pinouts.
+  </Card>
+  <Card title="HW401: Full System Integration" icon="laptop-code">
+    *Advanced · 18 Hours*
+    
+    Bring the hardware stack together: gather requirements, balance compatibility, design a full PC, validate builds, and complete an autograded system design capstone.
+  </Card>
+</CardGroup>
 
 ---
 
-## Certificate Verification
+## Computer Hardware Path Certificate Tiers
 
-To maintain the credibility of our credentials, we host a public verification service at [verify.opentechacademy.org](https://verify.opentechacademy.org).
+Students working through the Computer Hardware path can earn tiered certificates based on completion milestones:
 
-Employers, teachers, and sponsors can verify any Open Tech Academy certificate by entering the unique verification code printed on it. The verification lookup queries our database and returns:
-- Recipient Name
-- Course Title
-- Issue Date
-- Expiration or Revocation status (if applicable)
+```mermaid
+graph TD
+    %% Milestone Tiers
+    HW101(HW101: Fundamentals) --> Bronze[Bronze Certificate]
+    HW2xx(Any Two HW2xx Deep Dives) --> Bronze
+    
+    Bronze --> Silver[Silver Certificate]
+    HW4DeepDives(Four HW2xx Deep Dives) --> Silver
+    HWAdvanced(One Advanced Course: HW301 or HW401) --> Silver
+    
+    Silver --> Gold[Gold Certificate]
+    HWAll(Finish Every Course in Path) --> Gold
+```
 
-<Info>
-  The verification system is fully automated and runs serverless functions against our central PostgreSQL database to verify records in real time.
-</Info>
+- **Bronze Certificate**: Complete `HW101` and any two `HW2xx` deep-dive courses.
+- **Silver Certificate**: Complete `HW101`, any four `HW2xx` deep-dive courses, and one advanced course (`HW301` or `HW401`).
+- **Gold Certificate**: Complete all 9 courses in the Computer Hardware path.
+
+---
+
+## Public Certificate Verification
+
+To ensure the validity of our credentials, we host a public verification lookup portal at [verify.opentechacademy.org](https://verify.opentechacademy.org).
+
+- **How it Works**: Enter the unique verification code located on the certificate.
+- **What it Returns**: Confirms recipient name, course or learning path title, issue date, and validity status directly from our central database.
