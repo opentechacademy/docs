@@ -1,0 +1,58 @@
+---
+title: "HW301: Communication Protocols and Connectors"
+description: "Learn how computer parts communicate: internal buses, external ports, display links, storage interfaces, network protocols, cable limits, and connector troubleshooting."
+---
+
+**Difficulty**: Advanced  
+**Estimated Time**: 15 Hours  
+**Target Audience**: Learners ready to move beyond part names and understand why ports, cables, protocols, versions, and bandwidth decide whether hardware actually works together.
+
+---
+
+## Course Overview
+
+HW301 covers how computers move data across physical connections. This advanced course explores internal buses (PCIe lanes and motherboard link routing), external connections (USB topologies and Thunderbolt docks), audio/display protocols, storage interfaces, local network layers (Ethernet, Wi-Fi, IP routing, DNS), and structured troubleshooting patterns.
+
+---
+
+## Course Outline
+
+### Module 1: Communication Fundamentals
+Separate physical connectors from the protocols that use them.
+- **1.1 Connector, protocol, bus, and signal**: Learn the difference between physical ports, data buses, and communication protocols.
+- **1.2 Quick Check: Communication vocabulary**: 3-question check on USB-C capabilities, link fallbacks, and protocol definitions.
+- **1.3 Reading a connection path**: Trace how signals move through controllers, cables, passive adapters, active converters, and hubs.
+- **1.4 Practice: Identify the missing link**: Autograded checks on data vs. power cables, adapter limits, and link troubleshooting.
+
+### Module 2: Internal PC Links
+Understand PCIe, M.2, SATA, headers, and motherboard lanes.
+- **2.1 PCIe lanes, slots, and generations**: Detail how expansion cards share lane counts (x1, x4, x8, x16) and signaling generations (Gen 3, Gen 4, Gen 5).
+- **2.2 Quick Check: PCIe links**: 3-question check on motherboard lane splits, mechanical vs. electrical wiring, and lane-sharing footnotes.
+- **2.3 Storage, fan, front-panel, and power headers**: Identify board pins, front USB headers, fan types (PWM vs. DC), pump headers, and power pins.
+- **2.4 Practice: Internal connector decisions**: Autograded checks on board layout wiring, pump configurations, and front-panel connections.
+
+### Module 3: External I/O and Peripheral Protocols
+Understand USB, Thunderbolt, audio, Bluetooth, and input devices.
+- **3.1 USB versions, naming, and practical speed**: Decode USB speeds (USB 2.0, USB 3.2 Gen 1/2, USB4), connector types, and power delivery standards.
+- **3.2 Quick Check: USB behavior**: 3-question check on USB negotiation, hub power draw, and cable length fallbacks.
+- **3.3 Thunderbolt, docks, audio, Bluetooth, and low-latency peripherals**: Explore Thunderbolt bandwidth, display docks, Bluetooth audio profiles, and low-latency inputs.
+- **3.4 Practice: External I/O troubleshooting**: Autograded checks on laptop dock display limits, Bluetooth interference, and external SSD speeds.
+
+### Module 4: Display and Storage Protocols
+Compare HDMI, DisplayPort, SATA, NVMe, and file-transfer limits.
+- **4.1 Display protocols and cable limits**: Connect resolutions, refresh rates, and HDR depth to HDMI, DisplayPort, and USB-C DisplayPort Alternate Mode.
+- **4.2 Quick Check: Display links**: 3-question check on high-resolution link limits, cable certification, and USB-C display requirements.
+- **4.3 SATA, NVMe, and external storage paths**: Compare AHCI vs. NVMe storage protocol layers, M.2 interfaces, and external drive enclosures.
+- **4.4 Practice: Storage and display path choices**: Autograded checks on un-detected M.2 drives, enclosure speeds, and SATA/NVMe differences.
+
+### Module 5: Networks and Reliable Communication
+Reason about Ethernet, Wi-Fi, IP, DNS, and practical network symptoms.
+- **5.1 Ethernet, Wi-Fi, and link layers**: Detail network interfaces, Cat cable categories, Wi-Fi bands (2.4GHz, 5GHz, 6GHz), local IP routing, and DNS lookups.
+- **5.2 Quick Check: Network communication**: 3-question check on link speed vs. internet speed, Wi-Fi interference, and DNS resolution failures.
+- **5.3 Protocol troubleshooting habits**: Structured troubleshooting utilizing layered network diagnostic tests (Ping, Traceroute, NSLookup).
+- **5.4 Practice: Layered troubleshooting**: Autograded checks on resolving connection issues, link speed fallbacks, and logging results.
+
+### Course Review & Final Exam
+Review communication protocols and complete the final quiz.
+- **6.1 Course review: What to remember**: Core concepts review on connectors, protocols, PCIe lanes, USB speeds, and networks.
+- **6.2 Final Quiz: Communication Protocols and Connectors**: 5-question cumulative quiz testing your understanding of connector/protocol differences, lane splits, dock video links, and layered network testing.

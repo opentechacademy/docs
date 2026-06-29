@@ -1,0 +1,48 @@
+---
+title: "HW205: Expansion, Power, and Cooling Deep Dive"
+description: "Learn expansion, power, and cooling in plain English: PCIe slots, PSU wattage, airflow dynamics, and upgrade validation."
+---
+
+**Difficulty**: Intermediate  
+**Estimated Time**: 11 Hours  
+**Target Audience**: Learners who need safer planning language for GPUs, add-in cards, power supplies, cooling, and upgrade sequencing.
+
+---
+
+## Course Overview
+
+HW205 explores the critical supporting systems of a PC: expansion buses, power delivery, and cooling. You will learn to verify PCIe slot alignments, evaluate power supply (PSU) wattage requirements and cable connections, analyze case thermal airflow paths, and execute validation tests post-upgrade.
+
+---
+
+## Course Outline
+
+### Module 1: Upgrade Big Picture
+See upgrades as system changes, not isolated part swaps.
+- **1.1 One upgrade can move many pieces**: Understand how a single high-performance card change (e.g., adding a dedicated GPU) ripples through power demand, connector availability, physical clearance, and case thermal limits.
+- **1.2 Quick Check: Upgrade big picture**: 3-question check on system-level upgrade sequencing, PCIe fit, and component thermal dissipation.
+
+### Module 2: PCIe and Physical Fit
+Plan expansion cards around slots, space, and access.
+- **2.1 Slots are parking spaces**: Use a parking space analogy to understand mechanical PCIe length, electrical lanes, card height/thickness, and case backplate layouts.
+- **2.2 Practice: Expansion fit checklist**: Autograded assignment testing your ability to measure slot clearances, verify auxiliary power cord clearance, and plan board layout access.
+
+### Module 3: Power Supply Planning
+Use a budget analogy for wattage, connectors, and quality.
+- **3.1 Power is the system budget**: Explain PSU rails, continuous wattage ratings vs. transient load spikes, connector pinouts (24-pin, EPS, PCIe, 12VHPWR), and efficiency ratings.
+- **3.2 Quick Check: Power planning**: 3-question check on calculating PSU headroom, managing cable pins, and selecting power supplies based on build quality.
+
+### Module 4: Cooling and Airflow
+Move warm air out of the system in a planned way.
+- **4.1 Cooling is room airflow**: Use a room-air analogy to understand static pressure, case fan directions (intake vs. exhaust), liquid cooling radiatior mounts, and dust filter management.
+- **4.2 Practice: Cooling improvement plan**: Autograded assignment requiring you to diagnose thermal throttling symptoms in a hot PC, verify fan layouts, and propose minor cooling optimizations.
+
+### Module 5: Upgrade Validation
+Test the system after changes and plan the next step.
+- **5.1 Prove the upgrade worked**: Guide on POST validation, driver installations, monitoring temperatures, running stress tests, and documenting configurations.
+- **5.2 Quick Check: Upgrade validation**: 3-question check on running workload stress tests, diagnosing power shutdowns under load, and verifying thermal safety.
+
+### Course Review & Final Exam
+Review expansion, power, and cooling ideas and complete the final quiz.
+- **6.1 Course review: What to remember**: Core concepts review on expansion buses, PSU safety, and case airflow.
+- **6.2 Final Quiz: Expansion, Power, and Cooling Deep Dive**: 5-question cumulative quiz testing your understanding of PCIe lane slots, GPU clearances, PSU headroom calculations, fan airflow layouts, and validation benchmarks.

@@ -30,10 +30,24 @@
         "group": "Programs",
         "pages": [
           "programs/learning-center",
-          "programs/courses",
           "programs/certificates",
           "programs/workshops",
           "programs/open-tech-tools"
+        ]
+      },
+      {
+        "group": "Course Catalog",
+        "pages": [
+          "programs/courses",
+          "programs/courses/hw101",
+          "programs/courses/hw201",
+          "programs/courses/hw202",
+          "programs/courses/hw203",
+          "programs/courses/hw204",
+          "programs/courses/hw205",
+          "programs/courses/hw206",
+          "programs/courses/hw301",
+          "programs/courses/hw401"
         ]
       }
     ]
