@@ -49,12 +49,7 @@
         "label": "Support",
         "href": "mailto:support@opentechacademy.org"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
-    }
+    ]
   },
   "contextual": {
     "options": [
