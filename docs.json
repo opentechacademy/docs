@@ -8,31 +8,37 @@
     "dark": "#f5c453"
   },
   "favicon": {
-    "light": "https://opentechacademy.org/favicon.ico",
-    "dark": "https://opentechacademy.org/favicon.ico"
+    "light": "/logo/favicon.png",
+    "dark": "/logo/favicon.png"
   },
   "navigation": {
     "pages": [
       {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      }
-    ],
-    "groups": [
-      {
-        "group": "Coming Soon",
+        "group": "Welcome",
         "pages": [
           "index"
+        ]
+      },
+      {
+        "group": "Organization",
+        "pages": [
+          "organization/mission",
+          "organization/transparency"
+        ]
+      },
+      {
+        "group": "Programs",
+        "pages": [
+          "programs/learning-center",
+          "programs/workshops",
+          "programs/open-tech-tools"
         ]
       }
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg",
+    "light": "/logo/logo.png",
+    "dark": "/logo/logo.png",
     "href": "https://opentechacademy.org"
   },
   "navbar": {

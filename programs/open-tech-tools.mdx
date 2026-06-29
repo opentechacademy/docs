@@ -1,0 +1,47 @@
+---
+title: "Open Tech Tools"
+description: "Privacy-first, local browser tools for file conversions and encrypted sharing."
+---
+
+**Open Tech Tools** (available at [opentechtools.org](https://opentechtools.org)) is a suite of free web-based utility tools built by Open Tech Academy. Every tool runs client-side inside the user's browser, ensuring that files never touch a remote server, offering complete privacy.
+
+---
+
+## Design Principles
+
+- **No Paywalls or Ads**: Unlimited, free usage for all users.
+- **Privacy First**: Calculations and conversions happen locally on your computer.
+- **Zero Server Uploads**: Unlike traditional converters that upload your documents to third-party servers, your data remains in your browser.
+
+---
+
+## Available Utilities
+
+### 1. Image Converter
+Easily convert images between popular formats:
+- **Supported Formats**: PNG, JPEG, WEBP, BMP, and SVG.
+- **Features**: Quality compression controls, bulk image resizing, and aspect ratio locks.
+
+### 2. PDF Converter & Editor
+Manipulate and edit PDF documents without exposing sensitive information:
+- **Features**: Convert images to PDF, merge multiple PDFs, extract individual pages, or split documents by section.
+
+### 3. Audio & Media Converter
+Convert audio tracks locally:
+- **Supported Formats**: MP3, WAV, OGG, M4A, and WebM.
+- **Features**: Bitrate adjustment and audio track trimming.
+
+### 4. Data Converter
+Parse and translate data schemas:
+- **Supported Translations**: JSON to CSV, CSV to JSON, XML to JSON, and YAML configurations.
+
+---
+
+## Encrypted Sharing
+
+Open Tech Tools provides a secure, end-to-end encrypted file sharing utility.
+
+- **Client-Side Encryption**: Files are encrypted with AES-GCM in the browser using the Web Crypto API before upload.
+- **Secure Link Generation**: The decryption key is appended to the URL hash fragment (`#`), which is never sent to the hosting server.
+- **Expiration Controls**: Set files to expire after 1 hour, 1 day, or 1 week.
+- **QR Code Sharing**: Instantly generate QR codes for secure mobile downloads.
