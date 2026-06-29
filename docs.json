@@ -56,7 +56,7 @@
     "light": "/logo/logo.png",
     "dark": "/logo/logo.png",
     "href": "https://opentechacademy.org",
-    "height": 55
+    "height": 100
   },
   "navbar": {
     "links": [
