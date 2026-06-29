@@ -30,6 +30,8 @@
         "group": "Programs",
         "pages": [
           "programs/learning-center",
+          "programs/courses",
+          "programs/certificates",
           "programs/workshops",
           "programs/open-tech-tools"
         ]

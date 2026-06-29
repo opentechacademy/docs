@@ -1,55 +1,53 @@
-# Mintlify Starter Kit
+# Open Tech Academy Documentation
 
-Use the starter kit to get your docs deployed and ready to customize.
+Welcome to the open-source documentation repository for **Open Tech Academy** (hosted live at [docs.opentechacademy.org](https://docs.opentechacademy.org)).
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+This repository contains the user-facing documentation for all of our public programs, initiatives, organizational mission, and transparency statements.
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+---
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+## Directory Structure
 
-## AI-assisted writing
+Our documentation is powered by **Mintlify** and organized logically:
 
-Set up your AI coding tool to work with Mintlify:
+- `docs.json`: The global configuration file, including theme styling and sidebar navigation.
+- `index.mdx`: The documentation homepage.
+- `organization/`: Mission statements, community objectives, and transparency pages.
+- `programs/`: Public-facing initiatives including:
+  - `learning-center.mdx`: Learning portal overview and navigation guides.
+  - `courses.mdx`: Catalog details of published courses.
+  - `certificates.mdx`: Certificate tiers and verification details.
+  - `workshops.mdx`: Build-to-own programs.
+  - `open-tech-tools.mdx`: Open-source developer tools.
+
+---
+
+## Local Development
+
+You can preview edits locally using the Mintlify CLI.
+
+### Prerequisites
+
+You need Node.js installed on your system.
+
+### Running the Dev Server
+
+Run the dev server directly from the root of this repository:
 
 ```bash
-npx skills add https://mintlify.com/docs
+npx mintlify dev
 ```
 
-This command installs Mintlify's documentation skill for your configured AI tools like Claude Code, Cursor, Windsurf, and others. The skill includes component reference, writing standards, and workflow guidance.
+The preview will be available at `http://localhost:3000`.
 
-See the [AI tools guides](/ai-tools) for tool-specific setup.
+---
 
-## Development
+## Contributing
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
+We welcome contributions from the community! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to propose changes, write user-facing articles, and validate your code before submitting a Pull Request.
 
-```
-npm i -g mint
-```
+---
 
-Run the following command at the root of your documentation, where your `docs.json` is located:
+## License
 
-```
-mint dev
-```
-
-View your local preview at `http://localhost:3000`.
-
-## Publishing changes
-
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
-
-## Need help?
-
-### Troubleshooting
-
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
-
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
