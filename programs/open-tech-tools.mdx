@@ -33,7 +33,15 @@ Convert audio tracks locally:
 
 ### 4. Data Converter
 Parse and translate data schemas:
-- **Supported Translations**: JSON to CSV, CSV to JSON, XML to JSON, and YAML configurations.
+- **Supported Translations**: JSON to CSV and CSV to JSON.
+
+### 5. Text Toolkit
+Clean, format, and manipulate text:
+- **Features**: Uppercase, lowercase, title case, sentence case, trim whitespace, and character/word statistics.
+
+### 6. ZIP Builder
+Package multiple files directly in the browser:
+- **Features**: Client-side ZIP archive creation using `fflate` with custom levels.
 
 ---
 
@@ -41,7 +49,21 @@ Parse and translate data schemas:
 
 Open Tech Tools provides a secure, end-to-end encrypted file sharing utility.
 
-- **Client-Side Encryption**: Files are encrypted with AES-GCM in the browser using the Web Crypto API before upload.
+- **Client-Side Encryption**: Files are encrypted with AES-GCM (256-bit) in the browser using the Web Crypto API before upload.
 - **Secure Link Generation**: The decryption key is appended to the URL hash fragment (`#`), which is never sent to the hosting server.
-- **Expiration Controls**: Set files to expire after 1 hour, 1 day, or 1 week.
+- **Expiration Controls**: Set files to expire after 1 hour, 6 hours, 24 hours, or 7 days.
 - **QR Code Sharing**: Instantly generate QR codes for secure mobile downloads.
+
+---
+
+## Contributing & Open Source
+
+Open Tech Tools is fully open-source and welcomes community contributions.
+
+### Development Setup
+1. Clone the repository: `git clone https://github.com/opentechacademy/opentechtools`
+2. Run a local web server (e.g. `npx netlify dev` or any static file server) to load the assets under `public/`.
+3. Open `http://localhost:8888` or your local port in your browser.
+
+### Netlify Functions
+The E2E encrypted share functionality uses Netlify functions located in `netlify/functions/` to store encrypted file chunks in **Netlify Blobs**. Make sure to configure the appropriate Environment Variables (`LMS_DATABASE_URL` if linking to database systems, or Netlify Blob permissions) when deploying your own instance.
