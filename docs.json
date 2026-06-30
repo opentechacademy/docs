@@ -61,6 +61,10 @@
   "navbar": {
     "links": [
       {
+        "label": "Accessibility",
+        "href": "https://opentechacademy.org/accessibility"
+      },
+      {
         "label": "Support",
         "href": "mailto:support@opentechacademy.org"
       }
