@@ -53,10 +53,10 @@
     ]
   },
   "logo": {
-    "light": "/logo/logo.png",
-    "dark": "/logo/logo.png",
+    "light": "/logo/logocompact.png",
+    "dark": "/logo/logocompact.png",
     "href": "https://opentechacademy.org",
-    "height": 100
+    "height": 38
   },
   "navbar": {
     "links": [
