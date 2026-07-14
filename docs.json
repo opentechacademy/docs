@@ -88,7 +88,9 @@
     "socials": {
       "github": "https://github.com/opentechacademy",
       "website": "https://opentechacademy.org",
-      "youtube": "https://www.youtube.com/@TheOpenTechAcademy"
+      "youtube": "https://www.youtube.com/@TheOpenTechAcademy",
+      "instagram": "https://www.instagram.com/opentechacademy/",
+      "facebook": "https://www.facebook.com/opentechacademy/"
     }
   },
   "errors": {
